@@ -1,0 +1,122 @@
+body {
+  background-color: black;
+  margin: 0;
+}
+.main-food-container {
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  overflow-x: auto;
+}
+.image-div img {
+  width: 100%;
+  height: 480px;
+}
+.food-menu-container {
+  background-color: red;
+  padding-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: -4px;
+}
+.food-menu-div {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: inherit;
+  align-items: center;
+  padding-top: 35px;
+}
+.image-header-div img {
+  width: 350px;
+  height: 68px;
+  margin-bottom: 20px;
+}
+table {
+  width: 750px;
+  color: rgb(212, 211, 211);
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 30px;
+}
+.table-div {
+  overflow-x: auto;
+}
+.image-header-div {
+  width: 350px;
+  height: auto;
+  position: relative;
+}
+h2 {
+  margin: 0;
+  font-family: 'Italianno', cursive;
+  font-size: 45px;
+}
+.header {
+  position: absolute;
+  left: 45px;
+  top: 10px;
+}
+.form-image-container {
+  background-image: url("../images/food-plate2.jpg");
+  height: 765px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: auto;
+}
+.overlay {
+  height: 765px;
+  background: rgba(0, 0, 0, 0.7);
+}
+.input {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  height: 40px;
+  width: 755px;
+  font-family: 'Oswald', sans-serif;
+  border-radius: 12px;
+  padding-left: 8px;
+}
+::placeholder {
+  color: white;
+}
+option {
+  background-color: burlywood;
+  color: white;
+}
+.head {
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+.message {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  border-radius: 20px;
+  padding-left: 10px;
+}
+.form-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15px;
+}
+button {
+  height: 45px;
+  width: 750px;
+  border-radius: 12px;
+  background-color: yellow;
+  font-weight: bold;
+  font-size: 17px;
+}
+.food-menu-container {
+  background: url("../images/footer-food.png") no-repeat;
+  background-size: 150px 150px;
+  background-position: 105% 120%;
+  background-color: red; 
+  overflow-x: auto;
+}

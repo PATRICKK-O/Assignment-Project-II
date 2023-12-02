@@ -1,0 +1,79 @@
+@media (max-width: 680px) {
+  table tr td:nth-child(2) {
+    display: none;
+  }
+  .main-food-container {
+    width: 100%;
+  }
+  .header,
+  .head {
+    font-size: 36px;
+  }
+  .image-div {
+    background: url('../images/mobile-burger.jpg') no-repeat center center/cover;
+    padding: 250px 0;
+  }
+  .image-header-div {
+    background: url('../images/heading-bg.png') no-repeat center center/contain;
+    width: 310px;
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 800px) {
+  table tr td:nth-child(2) {
+    display: none;
+  }
+  .main-food-container {
+    width: 100%;
+  }
+  .image-header-div {
+    background: url('../images/heading-bg.png') no-repeat center center/contain;
+    width: 340px;
+    padding-top: 10px;
+  }
+  .header,
+  .head {
+    font-size: 42px;
+  }
+  .image-div {
+    background: url('../images/mobile-burger.jpg') no-repeat center center/cover;
+    padding: 250px 50px;
+  }
+  .food-menu-container {
+    background-image: url("../images/footer-food.png");
+    padding-top: 110px;
+  }
+}
+
+@media (min-width: 990px) {
+  table tr td:nth-child(2) {
+      display: block;
+  }
+  .main-food-container {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .image-header-div {
+    width: 450px;
+  }
+}  
+
+@media (max-width: 580px) {
+  table tr td:nth-child(2) {
+    display: none;
+  }
+  .main-food-container {
+    width: 100%;
+  }
+  .header,
+  .head {
+    font-size: 35px;
+  }
+  .image-header-div {
+    background: url('../images/heading-bg.png') no-repeat center center/contain;
+    width: 310px;
+    padding-top: 10px;
+  }
+}
